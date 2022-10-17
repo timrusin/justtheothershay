@@ -8,7 +8,7 @@ import music from './assets/images/livemusic/DSC_0033-2.jpg'
 function App() {
     const [index, setIndex] = useState(0)
 
-    const photos = [auto, portrait, music ]
+    const photos = [auto, portrait, music ] /// temp testing -- build images display to import form another file
     
     useEffect(() => {
         const interval = setInterval(() => {
@@ -33,8 +33,8 @@ function App() {
       <div  style={{ backgroundImage: `url(${photos[index]})` }} className= 'home-carousel'>
         <Navbar />
           <div className='nav-arrows-container'>
-            <i className="fa-thin fa-arrow-left arrows fade" onClick= {previousPic}></i>
-            <i className="fa-thin fa-arrow-right arrows fade" onClick= {nextPic}></i>
+            <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
+            <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
           </div>
         </div>
     </div>

@@ -21,8 +21,15 @@ ul {
     text-decoration: none;
     margin: 0 55px;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.25em;
+    font-size: 2.5vw;
     z-index: 1;
+}
+
+.title a{
+  font-size: 3vw;
+  text-decoration: none;
+  color:bisque;
+  margin-right:400px;
 }
   
 .nav-links{
