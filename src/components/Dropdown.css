@@ -1,7 +1,8 @@
 .dropdown-menu {
     width: 150px;
     position:absolute;
-    top: 11%;
+    top: 55px;
+    left: 40px;
     list-style: none;
     text-align: start;
   }
@@ -9,9 +10,10 @@
   .dropdown-menu li {
     color: white;
     font-family:'Times New Roman', Times, serif ;
-    font-size: .5em;
+    font-size: 20px;
     padding-bottom: 5px;
     background: rgba(0, 0, 0, 0.427);
+    border-radius: 10px;
     cursor: pointer;
   }
   

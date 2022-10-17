@@ -3,11 +3,11 @@
 }
 
 .fade{
-  animation: fadeIn .5s;
-  -webkit-animation: fadeIn .5s;
-  -moz-animation: fadeIn .5s;
-  -o-animation: fadeIn .5s;
-  -ms-animation: fadeIn .5s;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
@@ -36,11 +36,11 @@
 
 .nav-arrows-container{
   position: relative;
-  bottom: -700px;
+  bottom: -70%;
   display: flex;
   justify-content: space-around;
-  color: rgb(106, 106, 106);
-  font-size: 3.5vw;
+  color: rgb(171, 171, 171);
+  font-size: 45px;
 }
 
 .arrows{
@@ -50,4 +50,25 @@
 
 .arrows:hover{
   filter: brightness(2);
+}
+
+@media screen and (max-width: 1120px) {
+  .home-carousel{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .nav-arrows-container{
+    position: relative;
+    bottom: -20%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(171, 171, 171);
+    font-size: 45px;
+  }
+
+
+
 }

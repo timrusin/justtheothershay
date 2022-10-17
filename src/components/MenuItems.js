@@ -1,27 +1,22 @@
 export const MenuItems = [
     {
-        title: 'Newborn',
-        path:'/newborn',
+        title: 'Abstract',
+        path:'/abstract',
         cName: 'dropdown-link'
     },
     {
-        title: 'Family',
-        path:'/family',
+        title: 'Auto',
+        path:'/auto',
         cName: 'dropdown-link'
     },
     {
-        title: 'Fine Art',
-        path:'/fineart',
+        title: 'Live Music',
+        path:'/livemusic',
         cName: 'dropdown-link'
     },
     {
-        title: 'Lanscapes',
-        path:'/landscapes',
-        cName: 'dropdown-link'
-    },
-    {
-        title: 'Black and White',
-        path:'/blackandwhite',
+        title: 'Portraits',
+        path:'/portraits',
         cName: 'dropdown-link'
     }
 ]

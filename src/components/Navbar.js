@@ -22,12 +22,12 @@ const Navbar = () => {
       <div className="menu-icon" onClick={handleClick}>
         <i className={click ? "fas fa-times" : "fas fa-bars"} />
       </div>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="nav-item title">
+      <div className='title'>
           <Link to='/home'>
             Just The Other Shay
           </Link>
-        </li>
+      </div>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li
           className={click ? "images-hide" : "nav-item nav-links"}
           onMouseEnter={onMouseEnter}
@@ -49,17 +49,17 @@ const Navbar = () => {
         <li className={click ? "images-nav-item" : "images-hide"}>
           <hr/>
           <Link to="/newborn" className="nav-links" onClick={closeMobileMenu}>
-            NEWBORN
+            ABSTRACT
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/family" className="nav-links" onClick={closeMobileMenu}>
-            FAMILY
+            AUTO
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/fineart" className="nav-links" onClick={closeMobileMenu}>
-            FINE ART
+            LIVE MUSIC
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
@@ -68,16 +68,7 @@ const Navbar = () => {
             className="nav-links"
             onClick={closeMobileMenu}
           >
-            LANDSCAPES
-          </Link>
-        </li>
-        <li className={click ? "images-nav-item" : "images-hide"}>
-          <Link
-            to="/blackandwhite"
-            className="nav-links"
-            onClick={closeMobileMenu}
-          >
-            BLACK & WHITE
+            PORTRAITS
           </Link>
           <hr/>
         </li>
