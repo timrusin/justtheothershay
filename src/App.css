@@ -1,3 +1,7 @@
+.home-page {
+  height: 100vh;
+}
+
 .fade{
   animation: fadeIn .5s;
   -webkit-animation: fadeIn .5s;
@@ -26,12 +30,13 @@
 .home-carousel{
   width: 100vw;
   height: 100vh;
-  background-position: center;
   background-size: cover;
 }
 
 
 .nav-arrows-container{
+  position: relative;
+  bottom: -700px;
   display: flex;
   justify-content: space-around;
   color: rgb(106, 106, 106);
