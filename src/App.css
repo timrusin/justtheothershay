@@ -21,3 +21,10 @@
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
+.home-carousel{
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
