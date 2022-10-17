@@ -1,10 +1,11 @@
 .fade{
-  animation: fadeIn 1.5s;
-  -webkit-animation: fadeIn 1.5s;
-  -moz-animation: fadeIn 1.5s;
-  -o-animation: fadeIn 1.5s;
-  -ms-animation: fadeIn 1.5s;
+  animation: fadeIn .5s;
+  -webkit-animation: fadeIn .5s;
+  -moz-animation: fadeIn .5s;
+  -o-animation: fadeIn .5s;
+  -ms-animation: fadeIn .5s;
 }
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -27,4 +28,21 @@
   height: 100vh;
   background-position: center;
   background-size: cover;
+}
+
+
+.nav-arrows-container{
+  display: flex;
+  justify-content: space-around;
+  color: rgb(106, 106, 106);
+  font-size: 50px;
+}
+
+.arrows{
+  cursor: pointer;
+  transition: filter 200ms;
+}
+
+.arrows:hover{
+  filter: brightness(2);
 }

@@ -3,7 +3,6 @@
     font-size: 2em;
     justify-content: center;
     align-items: center;
-
 }
 
 ul {
@@ -27,14 +26,13 @@ ul {
 }
   
 .nav-links{
-    color: white;
+    color: rgb(136, 136, 136);
     text-decoration: none;
-    /* padding: 0.5rem 1rem; */
     transition: color 400ms;
 }
     
 .nav-links:hover {
-    color:rgb(0, 102, 255);
+    color:rgb(222, 189, 4);
 }
 
 .logo {
@@ -60,7 +58,7 @@ ul {
 
 .menu-icon {
   display: none;
-  color: rgb(255, 255, 255);
+  color: rgb(125, 125, 125);
 }
 
 .images-hide {
