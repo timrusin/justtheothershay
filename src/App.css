@@ -62,7 +62,7 @@
 
   .nav-arrows-container{
     position: relative;
-    bottom: -20%;
+    bottom: -10%;
     display: flex;
     justify-content: space-around;
     color: rgb(171, 171, 171);
