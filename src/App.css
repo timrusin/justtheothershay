@@ -60,22 +60,9 @@
 }
 
 @media screen and (max-width: 1120px) {
-  .home-carousel{
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .nav-arrows-container{
+   .nav-arrows-container{
     position: relative;
-    bottom: -10%;
+    bottom: 600px;
     display: flex;
-    justify-content: space-around;
-    color: rgb(171, 171, 171);
-    font-size: 45px;
   }
-
-
-
 }
