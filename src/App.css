@@ -62,7 +62,7 @@
 @media screen and (max-width: 1120px) {
    .nav-arrows-container{
     position: relative;
-    bottom: 600px;
+    bottom: 250px;
     display: flex;
   }
 }
