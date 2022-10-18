@@ -30,7 +30,8 @@ function App() {
     
   return (
     <div className='home-page'>
-      <div  style={{ backgroundImage: `url(${photos[index]})` }} className= 'home-carousel'>
+      <div   className= 'home-carousel'>
+        <img src={photos[index]} alt="" className='bg-image'></img>
         <Navbar />
           <div className='nav-arrows-container'>
             <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>

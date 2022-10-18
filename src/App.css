@@ -2,6 +2,13 @@
   height: 100vh;
 }
 
+.bg-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
+
 .fade{
   animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;
@@ -36,7 +43,7 @@
 
 .nav-arrows-container{
   position: relative;
-  bottom: -70%;
+  bottom: 25%;
   display: flex;
   justify-content: space-around;
   color: rgb(171, 171, 171);
