@@ -125,7 +125,7 @@ const Photos =  [
     url: "/assets/images/livemusic/P1110447.jpg",
     alt: "guitarist playing bar chord",
     category: "live",
-    position: ""
+    position: "left"
 },
 {
     id: 17,
@@ -133,7 +133,7 @@ const Photos =  [
     url: "/assets/images/livemusic/P1110783.jpg",
     alt: "shirtless male singer",
     category: "live",
-    position: ""
+    position: "right"
 },
 {
     id: 18,
