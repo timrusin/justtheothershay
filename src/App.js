@@ -29,7 +29,7 @@ function App() {
     <div className='home-page'>
       <div   className= 'home-carousel'>
         <Navbar />
-        <img src={photosData[index].url} alt={photosData[index].alt} className='bg-image'></img>
+        <img src={photosData[index].url} alt={photosData[index].alt} className='bg-image' style={{objectPosition: photosData[index].position}}></img>
           <div className='nav-arrows-container'>
             <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
             <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
