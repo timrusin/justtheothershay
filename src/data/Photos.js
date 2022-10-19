@@ -141,7 +141,7 @@ const Photos =  [
     url: "/assets/images/portraits/DSC_3063.jpg",
     alt: "male portrait",
     category: "portraits",
-    position: "center"
+    position: ""
 },
 {
     id: 19,
