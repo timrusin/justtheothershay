@@ -1,7 +1,7 @@
 .dropdown-menu {
     width: 150px;
     position:absolute;
-    top: 55px;
+    top: 41px;
     left: 40px;
     list-style: none;
     text-align: start;
@@ -32,6 +32,6 @@
     transition: color 400ms;
   }
   .dropdown-link:hover{
-    color:rgb(0, 102, 255);
+    color:rgb(240, 218, 88);
   }
   

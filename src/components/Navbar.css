@@ -23,7 +23,6 @@ ul {
     color: white;
     text-decoration: none;
     margin: 0 40px;
-    font-family: 'Dancing Script', cursive;
     font-size: 35px;
     z-index: 1;
 }
@@ -35,16 +34,22 @@ ul {
   font-size: 55px;
   text-decoration: none;
   color:bisque;
+  transition: color 200ms;
+  text-shadow: 0 0 10px black;
+}
+.title a:hover{
+  color:rgb(255, 255, 255);
 }
   
 .nav-links{
-    color: rgb(136, 136, 136);
+    color: rgb(175, 175, 175);
     text-decoration: none;
     transition: color 400ms;
+    text-shadow: 0 0 20px black;
 }
     
 .nav-links:hover {
-    color:rgb(222, 189, 4);
+    color:rgb(240, 218, 88);
 }
 
 .logo {

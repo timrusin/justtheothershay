@@ -54,7 +54,7 @@ const Navbar = () => {
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link to="/family" className="nav-links" onClick={closeMobileMenu}>
-            AUTO
+            CARS
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
