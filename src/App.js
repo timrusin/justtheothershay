@@ -13,7 +13,7 @@ function App() {
     useEffect(() => {
         const interval = setInterval(() => {
           setIndex(index+1)
-          if (index > 1) setIndex(0)
+          if (index === photos.length - 1) setIndex(0)
         }, 8000);
         return () => clearInterval(interval);
     });
@@ -31,8 +31,8 @@ function App() {
   return (
     <div className='home-page'>
       <div   className= 'home-carousel'>
-        <img src={photos[index]} alt="" className='bg-image'></img>
         <Navbar />
+        <img src={photos[index]} alt="" className='bg-image'></img>
           <div className='nav-arrows-container'>
             <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
             <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>

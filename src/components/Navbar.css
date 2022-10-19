@@ -3,7 +3,6 @@
     font-size: 2em;
     justify-content: center;
     align-items: center;
-    height: 0px;
 }
 
 ul {
@@ -86,6 +85,7 @@ ul {
 }
 
 @media screen and (max-width: 1120px) {
+
   .title a{
     left: 20px;
     top: 20px;
