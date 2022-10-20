@@ -6,30 +6,36 @@ import photosData from './data/Photos'
 
 function App() {
   const [index, setIndex] = useState(0)
+  let homePhotos = []
+  photosData.map((photo)=>{
+    if (photo.home){
+      homePhotos.push(photo)
+    }
+  })
   
   useEffect(() => {
         const interval = setInterval(() => {
           setIndex(index+1)
-          if (index === photosData.length - 1) setIndex(0)
+          if (index === homePhotos.length - 1) setIndex(0)
         }, 8000);
         return () => clearInterval(interval);
     });
 
     const previousPic = () => {
       setIndex(index - 1)
-      if (index === 0) setIndex(photosData.length - 1)
+      if (index === 0) setIndex(homePhotos.length - 1)
     }
 
     const nextPic = () => {
       setIndex(index + 1)
-      if (index === photosData.length - 1) setIndex(0)
+      if (index === homePhotos.length - 1) setIndex(0)
     }
     
   return (
     <div className='home-page'>
       <div   className= 'home-carousel'>
         <Navbar />
-        <img src={photosData[index].url} alt={photosData[index].alt} className='bg-image' style={{objectPosition: photosData[index].position}}></img>
+        <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
           <div className='nav-arrows-container'>
             <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
             <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
