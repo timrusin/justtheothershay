@@ -7,6 +7,7 @@ import photosData from './data/Photos'
 function App() {
   const [index, setIndex] = useState(0)
   let homePhotos = []
+
   photosData.forEach((photo)=>{
     if (photo.home){
       homePhotos.push(photo)
@@ -17,7 +18,7 @@ function App() {
         const interval = setInterval(() => {
           setIndex(index+1)
           if (index === homePhotos.length - 1) setIndex(0)
-        }, 8000);
+        }, 6000);
         return () => clearInterval(interval);
     });
 
