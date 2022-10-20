@@ -7,7 +7,7 @@ import photosData from './data/Photos'
 function App() {
   const [index, setIndex] = useState(0)
   let homePhotos = []
-  photosData.map((photo)=>{
+  photosData.forEach((photo)=>{
     if (photo.home){
       homePhotos.push(photo)
     }
