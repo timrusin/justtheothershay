@@ -1,7 +1,7 @@
 .dropdown-menu {
     width: 150px;
     position:absolute;
-    top: 41px;
+    top: 35px;
     left: 40px;
     list-style: none;
     text-align: start;
@@ -9,7 +9,7 @@
   
   .dropdown-menu li {
     color: white;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Special Elite', cursive;
     font-size: 20px;
     padding-bottom: 5px;
     background: rgba(0, 0, 0, 0.427);

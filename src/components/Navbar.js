@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
       <div className='title'>
           <Link to='/home'>
-            Just The Other Shay
+            jpeg.shay
           </Link>
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>

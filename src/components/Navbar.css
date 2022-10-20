@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 .navbar {
     display: flex;
     font-size: 2em;
@@ -20,6 +22,7 @@ ul {
 .nav-item {
     display: flex;
     align-items: center;
+    font-family: 'Special Elite', cursive;
     color: white;
     text-decoration: none;
     margin: 0 40px;
@@ -29,9 +32,10 @@ ul {
 
 .title a{
   position: absolute;
+  font-family: 'Special Elite', cursive;
   left: 50px;
-  top: 25px;
-  font-size: 55px;
+  top: 20px;
+  font-size: 60px;
   text-decoration: none;
   color:bisque;
   transition: color 200ms;
@@ -75,7 +79,7 @@ ul {
 
 .menu-icon {
   display: none;
-  color: rgb(125, 125, 125);
+  color: rgb(182, 182, 182);
 }
 
 .images-hide {
@@ -93,8 +97,7 @@ ul {
 
   .title a{
     left: 20px;
-    top: 20px;
-    font-size: 30px;
+    font-size: 40px;
   }
   
     .nav-menu {
@@ -102,7 +105,7 @@ ul {
       flex-direction: column;
       justify-content: left;
       width: 100%;
-      height: 400px;
+      height: 410px;
       position: absolute;
       top: 100px;
       left: -100%;
@@ -119,8 +122,10 @@ ul {
   
     .nav-links {
       color: white;
+      font-family: 'Special Elite', cursive;
       text-align: left;
-      padding: 5px;
+      margin-top: 10px;
+      padding: 10px;
       width: 100%;
     }
     
