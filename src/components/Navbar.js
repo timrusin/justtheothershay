@@ -23,7 +23,7 @@ const Navbar = () => {
         <i className={click ? "fas fa-times" : "fas fa-bars"} />
       </div>
       <div className='title'>
-          <Link to='/home'>
+          <Link to='/home' onClick={closeMobileMenu}>
             jpeg.shay
           </Link>
       </div>

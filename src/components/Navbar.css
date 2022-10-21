@@ -12,11 +12,12 @@ ul {
 }
 
 .nav-menu { 
-    position: absolute;
+    position: fixed;
     right: 100px;
     top: 0px;
     display: flex;
     justify-content: center;
+    z-index: 999;
 }
   
 .nav-item {
@@ -27,11 +28,11 @@ ul {
     text-decoration: none;
     margin: 0 40px;
     font-size: 35px;
-    z-index: 1;
+    z-index: 100;
 }
 
 .title a{
-  position: absolute;
+  position: fixed;
   font-family: 'Special Elite', cursive;
   left: 50px;
   top: 20px;
@@ -40,6 +41,7 @@ ul {
   color:bisque;
   transition: color 200ms;
   text-shadow: 0 0 2px rgb(126, 126, 126);
+  z-index: 1;
 }
 .title a:hover{
   color:rgb(255, 255, 255);
@@ -54,23 +56,6 @@ ul {
     
 .nav-links:hover {
     color:rgb(240, 218, 88);
-}
-
-.logo {
-    width: 180px;
-    margin-left: 10px;
-    margin-right: 0px;
-    z-index: 1;
-    filter: invert();
-    transition: filter 400ms;
-}
-
-.logo:hover {
-    filter: saturate(5)
-}
-
-.logo-large {
-    display: none;
 }
 
 .nav-links-mobile {

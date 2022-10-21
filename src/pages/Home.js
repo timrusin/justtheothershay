@@ -30,7 +30,7 @@ const Home = () => {
       if (index === homePhotos.length - 1) setIndex(0)
     }
   return (
-    <div className= 'home-carousel'>
+    <div className= 'home-carousel fade'>
     <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
       <div className='nav-arrows-container'>
         <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
