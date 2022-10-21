@@ -125,7 +125,7 @@ ul {
   
     .menu-icon {
       display: block;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       transform: translate(-100%, 60%);
