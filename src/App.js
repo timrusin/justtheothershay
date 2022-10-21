@@ -34,15 +34,15 @@ function App() {
     
   return (
     <div className='home-page'>
-      <div   className= 'home-carousel'>
+      <div className= 'home-carousel'>
         <Navbar />
-        <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
-          <div className='nav-arrows-container'>
-            <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
-            <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
+          <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
+            <div className='nav-arrows-container'>
+              <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
+              <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
   );
 }
 
