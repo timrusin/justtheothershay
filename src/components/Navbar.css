@@ -85,6 +85,10 @@ ul {
     left: 20px;
     font-size: 40px;
   }
+
+  .title a:hover{
+    color:bisque;
+  }
   
     .nav-menu {
       display: flex;
