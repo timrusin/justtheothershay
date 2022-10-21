@@ -35,4 +35,7 @@
         -moz-column-count: 1;
         column-count: 1;
     }
+    .gallery .pics:hover{
+        filter: opacity(1)
+    }
 }
