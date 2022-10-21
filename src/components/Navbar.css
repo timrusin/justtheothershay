@@ -65,6 +65,7 @@ ul {
 .menu-icon {
   display: none;
   color: rgb(182, 182, 182);
+  z-index: 999;
 }
 
 .images-hide {
