@@ -48,23 +48,23 @@ const Navbar = () => {
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <hr/>
-          <Link to="/newborn" className="nav-links" onClick={closeMobileMenu}>
+          <Link to="/gallery/abstract" className="nav-links" onClick={closeMobileMenu}>
             ABSTRACT
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
-          <Link to="/family" className="nav-links" onClick={closeMobileMenu}>
+          <Link to="/gallery/cars" className="nav-links" onClick={closeMobileMenu}>
             CARS
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
-          <Link to="/fineart" className="nav-links" onClick={closeMobileMenu}>
+          <Link to="/gallery/live" className="nav-links" onClick={closeMobileMenu}>
             LIVE MUSIC
           </Link>
         </li>
         <li className={click ? "images-nav-item" : "images-hide"}>
           <Link
-            to="/landscapes"
+            to="/gallery/portraits"
             className="nav-links"
             onClick={closeMobileMenu}
           >

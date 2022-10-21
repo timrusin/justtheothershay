@@ -1,13 +1,42 @@
-import React from 'react'
-import HomeCarousel from '../components/HomeCarousel'
-import Navbar from '../components/Navbar'
+import { useState, useEffect } from 'react'
+import photosData from '../data/Photos'
+import './Home.css'
 
 const Home = () => {
+  const [index, setIndex] = useState(0)
+  let homePhotos = []
+
+  photosData.forEach((photo)=>{
+    if (photo.home){
+      homePhotos.push(photo)
+    }
+  })
+  
+  useEffect(() => {
+        const interval = setInterval(() => {
+          setIndex(index+1)
+          if (index === homePhotos.length - 1) setIndex(0)
+        }, 6000);
+        return () => clearInterval(interval);
+    });
+
+    const previousPic = () => {
+      setIndex(index - 1)
+      if (index === 0) setIndex(homePhotos.length - 1)
+    }
+
+    const nextPic = () => {
+      setIndex(index + 1)
+      if (index === homePhotos.length - 1) setIndex(0)
+    }
   return (
-    <>
-        <Navbar />
-        <HomeCarousel/>
-    </>
+    <div className= 'home-carousel'>
+    <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
+      <div className='nav-arrows-container'>
+        <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
+        <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
+      </div>
+    </div>
   )
 }
 
