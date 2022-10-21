@@ -9,8 +9,28 @@
     padding-top: 100px;
 }
 
-
-
 .gallery .pics{
     box-shadow: 0 0 8px rgb(154, 153, 153);
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
 } 
+
+@media (max-width: 991px){
+    .gallery{
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    
+}
+
+@media (max-width: 480px){
+    .gallery{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
