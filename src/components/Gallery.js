@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import './Gallery.css'
 import Photos from '../data/Photos'
@@ -6,23 +5,20 @@ import Photos from '../data/Photos'
 
 const Gallery = () => {
   let { category } = useParams()
-  let galleryPhotos = []
   
-  useEffect(()=> {
-    Photos.forEach((photo) => {
-     if (category === photo.category){
-      galleryPhotos.push(photo)
-     } 
-    },[galleryPhotos]);
-  })
-  console.log(galleryPhotos);
      return (
-       <div className="gallery">
-         {galleryPhotos.map((photo, index) => {
+       <div className="gallery fade">
+         {Photos.map((photo) => {
            return (
-             <div className="pics" key={index}>
-               <img src={photo.url} alt={photo.alt} />
-             </div>
+             photo.category === category && (
+               <div className="pics" key={photo.id}>
+                 <img
+                   src={photo.url}
+                   alt={photo.alt}
+                   style={{ width: "100%" }}
+                 />
+               </div>
+             )
            );
          })}
        </div>
