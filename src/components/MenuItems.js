@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Abstract',
-        path:'/gallery/abstract',
+        path:'/gallery',
         cName: 'dropdown-link'
     },
     {
