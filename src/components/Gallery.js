@@ -18,7 +18,7 @@ const Gallery = () => {
      <>
      <div className={modal ? "modal open" : "modal"}>
         <img src={focusPhoto} alt="alt placeholder"/>
-        <i class="fa-regular fa-circle-xmark" onClick={()=>setModal(false)}></i>
+        <i className="fa-regular fa-circle-xmark" onClick={()=>setModal(false)}></i>
      </div>
        <div className="gallery fade">
          {Photos.map((photo) => {
@@ -29,6 +29,7 @@ const Gallery = () => {
                    src={photo.url}
                    alt={photo.alt}
                    style={{ width: "100%" }}
+                   className="picture"
                  />
                </div>
              )

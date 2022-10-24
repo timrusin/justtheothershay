@@ -76,6 +76,20 @@
         -moz-column-count: 1;
         column-count: 1;
     }
+
+    .picture{
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* .gallery .pics{
+        position: relative;
+        height: 200px;
+        width: auto;
+        object-position: top;
+    }  */
+
     .gallery .pics:hover{
         filter: opacity(1)
     }
