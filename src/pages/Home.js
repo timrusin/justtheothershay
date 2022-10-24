@@ -31,7 +31,6 @@ const Home = () => {
     }
   return (
     <div className= 'home-carousel fade'>
-    <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index === 0 ? 'bg-image fade' : 'hide fade'}></img>
     <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide fade'}></img>
     <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index % 2 === 0 ? 'bg-image fade' : 'hide fade'}></img>
       <div className='nav-arrows-container'>
