@@ -87,7 +87,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0277.jpg",
     alt: "guitar player posing",
     category: "live",
-    position: "top",
+    position: "",
     home: true
 },
 {
