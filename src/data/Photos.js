@@ -5,6 +5,7 @@ const Photos =  [
     url:"/assets/images/abstract/P1020329.jpg",
     alt: "piano abstract",
     category: "abstract",
+    position: "",
     home: true,
 
 },
@@ -14,7 +15,8 @@ const Photos =  [
     url: "/assets/images/abstract/P1030607.jpg",
     alt: "ants abstract",
     category: "abstract",
-    home: false
+    position: "bottom",
+    home: true
 },
 {
     id: 3,
@@ -22,6 +24,7 @@ const Photos =  [
     url: "/assets/images/cars/P1190350-2.jpg",
     alt: "cmaro SS",
     category: "cars",
+    position: "",
     home: true
 },
 {
@@ -30,6 +33,7 @@ const Photos =  [
     url: "/assets/images/cars/P1270460.jpg",
     alt: "Shelby",
     category: "cars",
+    position: "",
     home: true
 },
 {
@@ -38,6 +42,7 @@ const Photos =  [
     url: "/assets/images/livemusic/_1530182.jpg",
     alt: "female singer",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -46,6 +51,7 @@ const Photos =  [
     url: "/assets/images/livemusic/Arbor Day (2).jpg",
     alt: "Arbor Day Bass Player",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -54,6 +60,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0027.jpg",
     alt: "Bass player",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -62,6 +69,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0033-2.jpg",
     alt: "crowd watching show",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -70,6 +78,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0183-2.jpg",
     alt: "Raindobow effect shot of guitarist",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -78,6 +87,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0277.jpg",
     alt: "guitar player posing",
     category: "live",
+    position: "top",
     home: true
 },
 {
@@ -86,6 +96,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_0355.jpg",
     alt: "guitar player strumming",
     category: "live",
+    position: "top",
     home: true
 },
 {
@@ -94,6 +105,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_1904.jpg",
     alt: "band wide shot",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -102,6 +114,7 @@ const Photos =  [
     url: "/assets/images/livemusic/DSC_2799.jpg",
     alt: "close up of female guitar/singer",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -110,6 +123,7 @@ const Photos =  [
     url: "/assets/images/livemusic/P1010068.jpg",
     alt: "band backstage",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -118,6 +132,7 @@ const Photos =  [
     url: "/assets/images/livemusic/P1010698.jpg",
     alt: "guitaris tuning",
     category: "live",
+    position: "",
     home: true
 },
 {
@@ -126,6 +141,7 @@ const Photos =  [
     url: "/assets/images/livemusic/P1110447.jpg",
     alt: "guitarist playing bar chord",
     category: "live",
+    position: "left",
     home: true
 },
 {
@@ -134,7 +150,8 @@ const Photos =  [
     url: "/assets/images/livemusic/P1110783.jpg",
     alt: "shirtless male singer",
     category: "live",
-    home: false
+    position: "right",
+    home: true
 },
 {
     id: 18,
@@ -142,6 +159,7 @@ const Photos =  [
     url: "/assets/images/portraits/DSC_3063.jpg",
     alt: "male portrait",
     category: "portraits",
+    position: "",
     home: true
 },
 {
@@ -150,6 +168,7 @@ const Photos =  [
     url: "/assets/images/portraits/P1020400.jpg",
     alt: "female portrait",
     category: "portraits",
+    position: "top",
     home: true
 }
 ]

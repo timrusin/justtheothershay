@@ -15,11 +15,11 @@ const Home = () => {
   useEffect(() => {
         const interval = setInterval(() => {
           setIndex(index+1)
-          if (index === homePhotos.length - 1) setIndex(0)
+          if (index >= homePhotos.length -1) setIndex(0)
         }, 6000);
         return () => clearInterval(interval);
     });
-
+    console.log(index);
     const previousPic = () => {
       setIndex(index - 1)
       if (index === 0) setIndex(homePhotos.length - 1)
@@ -31,7 +31,9 @@ const Home = () => {
     }
   return (
     <div className= 'home-carousel fade'>
-    <img src={homePhotos[index].url} alt={homePhotos[index].alt} className='bg-image'></img>
+    <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index === 0 ? 'bg-image fade' : 'hide fade'}></img>
+    <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide fade'}></img>
+    <img src={homePhotos[index].url} alt={homePhotos[index].alt} style={{objectPosition: homePhotos[index].position}} className={index % 2 === 0 ? 'bg-image fade' : 'hide fade'}></img>
       <div className='nav-arrows-container'>
         <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
         <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
