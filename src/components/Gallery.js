@@ -26,7 +26,7 @@ const Gallery = () => {
              photo.category === category && (
                <div className="pics" key={photo.id} onClick={()=> getPhoto(photo.url)}>
                  <img
-                   src={photo.url}
+                   src={photo.url_small}
                    alt={photo.alt}
                    style={{ width: "100%" }}
                    className="picture"
