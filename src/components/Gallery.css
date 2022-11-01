@@ -83,13 +83,6 @@
         object-position: center;
     }
 
-    /* .gallery .pics{
-        position: relative;
-        height: 200px;
-        width: auto;
-        object-position: top;
-    }  */
-
     .gallery .pics:hover{
         filter: opacity(1)
     }

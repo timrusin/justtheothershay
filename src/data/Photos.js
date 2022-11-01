@@ -2,6 +2,7 @@ const Photos =  [
 {
     id: 1,
     name: "piano",
+    url_small: "/assets/images/abstract/P1020329_small.jpg",
     url:"/assets/images/abstract/P1020329.jpg",
     alt: "piano abstract",
     category: "abstract",
@@ -12,6 +13,7 @@ const Photos =  [
 {
     id: 2,
     name: "ants",
+    url_small: "/assets/images/abstract/P1030607_small.jpg",
     url: "/assets/images/abstract/P1030607.jpg",
     alt: "ants abstract",
     category: "abstract",
@@ -21,6 +23,7 @@ const Photos =  [
 {
     id: 3,
     name: "camaroSS",
+    url_small: "/assets/images/cars/P1190350-2_small.jpg",
     url: "/assets/images/cars/P1190350-2.jpg",
     alt: "cmaro SS",
     category: "cars",
@@ -30,6 +33,7 @@ const Photos =  [
 {
     id: 4,
     name: "Shelby",
+    url_small: "/assets/images/cars/P1270460_small.jpg",
     url: "/assets/images/cars/P1270460.jpg",
     alt: "Shelby",
     category: "cars",
@@ -39,6 +43,7 @@ const Photos =  [
 {
     id: 5,
     name: "femaleSinger",
+    url_small: "/assets/images/livemusic/_1530182_small.jpg",
     url: "/assets/images/livemusic/_1530182.jpg",
     alt: "female singer",
     category: "live",
@@ -48,6 +53,7 @@ const Photos =  [
 {
     id: 6,
     name: "ArborDayBass",
+    url_small: "/assets/images/livemusic/Arbor Day (2)_small.jpg",
     url: "/assets/images/livemusic/Arbor Day (2).jpg",
     alt: "Arbor Day Bass Player",
     category: "live",
@@ -57,6 +63,7 @@ const Photos =  [
 {
     id: 7,
     name: "Bassist",
+    url_small: "/assets/images/livemusic/DSC_0027_small.jpg",
     url: "/assets/images/livemusic/DSC_0027.jpg",
     alt: "Bass player",
     category: "live",
@@ -66,6 +73,7 @@ const Photos =  [
 {
     id: 8,
     name: "crowd",
+    url_small: "/assets/images/livemusic/DSC_0033-2_small.jpg",
     url: "/assets/images/livemusic/DSC_0033-2.jpg",
     alt: "crowd watching show",
     category: "live",
@@ -75,6 +83,7 @@ const Photos =  [
 {
     id: 9,
     name: "Rainbow",
+    url_small: "/assets/images/livemusic/DSC_0183-2_small.jpg",
     url: "/assets/images/livemusic/DSC_0183-2.jpg",
     alt: "Raindobow effect shot of guitarist",
     category: "live",
@@ -84,6 +93,7 @@ const Photos =  [
 {
     id: 10,
     name: "guitarPose",
+    url_small: "/assets/images/livemusic/DSC_0277_small.jpg",
     url: "/assets/images/livemusic/DSC_0277.jpg",
     alt: "guitar player posing",
     category: "live",
@@ -93,6 +103,7 @@ const Photos =  [
 {
     id: 11,
     name: "guitarStrum",
+    url_small: "/assets/images/livemusic/DSC_0355_small.jpg",
     url: "/assets/images/livemusic/DSC_0355.jpg",
     alt: "guitar player strumming",
     category: "live",
@@ -102,6 +113,7 @@ const Photos =  [
 {
     id: 12,
     name: "bandWide",
+    url_small: "/assets/images/livemusic/DSC_1904_small.jpg",
     url: "/assets/images/livemusic/DSC_1904.jpg",
     alt: "band wide shot",
     category: "live",
@@ -111,6 +123,7 @@ const Photos =  [
 {
     id: 13,
     name: "femaleGuitarSinger",
+    url_small: "/assets/images/livemusic/DSC_2799_small.jpg",
     url: "/assets/images/livemusic/DSC_2799.jpg",
     alt: "close up of female guitar/singer",
     category: "live",
@@ -120,6 +133,7 @@ const Photos =  [
 {
     id: 14,
     name: "backstage",
+    url_small: "/assets/images/livemusic/P1010068_small.jpg",
     url: "/assets/images/livemusic/P1010068.jpg",
     alt: "band backstage",
     category: "live",
@@ -129,6 +143,7 @@ const Photos =  [
 {
     id: 15,
     name: "tuning",
+    url_small: "/assets/images/livemusic/P1010698_small.jpg",
     url: "/assets/images/livemusic/P1010698.jpg",
     alt: "guitaris tuning",
     category: "live",
@@ -138,6 +153,7 @@ const Photos =  [
 {
     id: 16,
     name: "barChord",
+    url_small: "/assets/images/livemusic/P1110447_small.jpg",
     url: "/assets/images/livemusic/P1110447.jpg",
     alt: "guitarist playing bar chord",
     category: "live",
@@ -147,6 +163,7 @@ const Photos =  [
 {
     id: 17,
     name: "shirtlessSinger",
+    url_small: "/assets/images/livemusic/P1110783_small.jpg",
     url: "/assets/images/livemusic/P1110783.jpg",
     alt: "shirtless male singer",
     category: "live",
@@ -156,6 +173,7 @@ const Photos =  [
 {
     id: 18,
     name: "malePortrait",
+    url_small: "/assets/images/portraits/DSC_3063_small.jpg",
     url: "/assets/images/portraits/DSC_3063.jpg",
     alt: "male portrait",
     category: "portraits",
@@ -165,6 +183,7 @@ const Photos =  [
 {
     id: 19,
     name: "femalePortrait",
+    url_small: "/assets/images/portraits/P1020400_small.jpg",
     url: "/assets/images/portraits/P1020400.jpg",
     alt: "female portrait",
     category: "portraits",
