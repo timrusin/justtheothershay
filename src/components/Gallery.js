@@ -13,12 +13,17 @@ const Gallery = () => {
     setFocusPhoto(url)
     setModal(true)
   }
+
+  const clearPhoto = () => {
+    setModal(false)
+    setFocusPhoto('')
+  }
   
      return (
      <>
      <div className={modal ? "modal open" : "modal"}>
         <img src={focusPhoto} alt="alt placeholder"/>
-        <i className="fa-regular fa-circle-xmark" onClick={()=>setModal(false)}></i>
+        <i className="fa-regular fa-circle-xmark" onClick={clearPhoto}></i>
      </div>
        <div className="gallery fade">
          {Photos.map((photo) => {
