@@ -11,8 +11,8 @@ const Home = () => {
           if (index >= photosData.length -1) setIndex(0)
         }, 6000);
         return () => clearInterval(interval);
-    });
-    console.log(index);
+    })
+
     const previousPic = () => {
       setIndex(index - 1)
       if (index === 0) setIndex(photosData.length - 1)
@@ -22,6 +22,7 @@ const Home = () => {
       setIndex(index + 1)
       if (index === photosData.length - 1) setIndex(0)
     }
+
   return (
     <div className= 'home-carousel fade'>
     <img src={photosData[index].url} alt={photosData[index].alt} style={{objectPosition: photosData[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide fade'}></img>
